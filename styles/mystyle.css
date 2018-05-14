@@ -14,8 +14,6 @@
         {
             font-family: sans-serif;
             font-size: 18px;
-            text-align: justify;
-            margin: 0 0 10px;
         }
     .btn
         {
@@ -36,6 +34,8 @@
     nav
         {
             margin-left: -10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
             background-color: yellow;
             padding: 20px;
             width: 100%;
@@ -47,7 +47,7 @@
     .floating-box 
         {
             display: inline-block;
-            width: 46%;
+            width: 95%;
             height: 125px;
             margin: 20px;
             border: 2px solid black;  
@@ -70,13 +70,19 @@
         }
     .boxtitle
         {
-            font-size: 40px;
+            font-size: 28px;
             display: block;
         }
     .boxcontent
         {
             display: block;
             overflow: hidden;
+            font-size: 22px;
+        }
+    .articlebox
+        {  
+            width:90%;
+            margin: auto;
         }
     footer
         {
@@ -93,4 +99,9 @@
         {
             font-family: sans-serif;
             text-align: center
+        }
+        h2
+        {
+            font-family: sans-serif;
+            text-align: center;
         }
