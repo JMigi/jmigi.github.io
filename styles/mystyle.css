@@ -11,6 +11,13 @@
             font-family: sans-serif;
             
         }
+    .fullpage
+        {
+            width: 101%;
+            overflow: hidden;
+            margin-left:-7px;
+            margin-top: -7px;
+        }
     p
         {
             font-family: sans-serif;
